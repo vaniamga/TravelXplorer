@@ -1,2 +1,2 @@
 # TravelXplorer
-proyecto tutorias
+proyecto tutoriasgit status
