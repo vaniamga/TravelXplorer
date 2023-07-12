@@ -23,24 +23,37 @@ nav ul li a {
   text-decoration: none;
   padding: 10px;
 }
-
 main {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
+  grid-template-rows: auto 1fr;
+}
+.destacados {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   padding: 20px;
 }
 
-.elemento{
+.destino {
   display: flex;
-  flex-direction: row;
-  flex-wrap:wrap-reverse;
-
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 3px solid #7c0808;
+  border-radius: 5px;
 }
 
-.card{
-  border: 2px solid red;
+.destino img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
+
+h1{
+  text-align: center;
+}
+
 footer {
   background-color: #333;
   padding: 10px;
